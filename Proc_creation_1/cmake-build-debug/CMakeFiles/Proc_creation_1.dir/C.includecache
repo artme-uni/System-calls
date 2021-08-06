@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twiggy/Doc_Git/OS/Proc_creation_1/main.c
+sys/types.h
+-
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+

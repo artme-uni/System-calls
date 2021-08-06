@@ -1,0 +1,25 @@
+real user ID, real group ID, effective user ID, effective group ID
+open file descriptors
+close-on-exec flags (see exec(2))
+signal handling settings (that is, SIG_DFL, SIG_IGN, SIG_HOLD, function address)
+supplementary group IDs
+set-user-ID mode bit
+set-group-ID mode bit
+profiling on/off status
+nice value (see nice(2))
+scheduler class (see priocntl(2))
+all attached shared memory segments (see shmop(2))
+process group ID - memory mappings (see mmap(2))
+session ID (see exit(2))
+current working directory
+root directory
+file mode creation mask (see umask(2))
+resource limits (see getrlimit(2))
+controlling terminal
+saved user ID and group ID
+task ID and project ID
+processor bindings (see processor_bind(2))
+processor set bindings (see pset_bind(2))
+process privilege sets (see getppriv(2))
+process flags (see getpflags(2))
+active contract templates (see contract(4))
